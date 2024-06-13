@@ -1,0 +1,9 @@
+name: tiger_hack
+channels:
+  - defaults
+dependencies:
+  - python=3.9.18
+  - pip
+  - ipykernel
+  - pip:
+      - -r requirements_mac.txt

@@ -1,0 +1,10 @@
+name: tiger_hack
+channels:
+  - defaults
+dependencies:
+  - python=3.9.18
+  - pip
+  - ipykernel
+  - nb_conda_kernels
+  - pip:
+      - -r requirements.txt

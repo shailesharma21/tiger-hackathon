@@ -1,13 +1,11 @@
-import asyncio
-from typing import List
-
-import nest_asyncio
-from openai import AzureOpenAI
-
-nest_asyncio.apply()
 import os
+import asyncio
+import nest_asyncio
 
+from typing import List
+from openai import AzureOpenAI
 from .retrieve_documents import get_documents
+nest_asyncio.apply()
 
 
 def build_message(user_prompt: str, system_role: str) -> List[dict]:
